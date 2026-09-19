@@ -1,0 +1,173 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.article_wrapper
+{
+    padding: 40px 0;
+}
+
+.text_section
+{
+    margin: 0 auto 20px;
+    max-width: 800px;
+    /*! width: 550px; */
+}
+
+
+.text, .list, .quote, .baldtext
+{
+    font-family: 'Lato', sans-serif;
+    color: #060c31;
+    line-height: 28px;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    width: 440px;
+}
+
+.baldtext
+{
+    font-family: 'Crete Round', sans-serif;
+    margin: 0 0 10px;
+    font-size: 58px;
+    width: 550px;
+    font-weight: 400;
+    line-height: 68px;
+    letter-spacing: 3px;
+}
+
+.main_title,
+.paragraph_title,
+.list_title,
+.article_button
+{
+    font-family: 'Crete Round', sans-serif;
+    color: #060c31;
+    line-height: 1.35;
+}
+
+.main_title
+{
+    font-size: 34px;
+    margin: 0 0 100px;
+    font-weight: normal;
+}
+
+.paragraph_title
+{
+    font-size: 32px;
+    margin: 40px 0 20px;
+    font-weight: normal;
+}
+
+.list_title
+{
+    font-size: 24px;
+    color: #6a6a6a;
+    margin: 40px 0 10px;
+    font-weight: bold;
+}
+
+.text, .baldtext
+{
+    margin: 0 0 50px;
+}
+
+.list
+{
+    padding-left: 20px;
+}
+
+.list_item
+{
+    margin-bottom: 10px;
+}
+
+.quote
+{
+    margin: 20px 0;
+    padding: 20px 40px;
+    font-style: italic;
+    border-top: 1px solid #6a6a6a;
+    border-bottom: 1px solid #6a6a6a;
+    color: #a2a2a2;
+}
+
+.article_photo
+{
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+
+.link,
+a,
+a:visited
+{
+    color: #ea2a2a;
+}
+
+.link:hover
+{
+    color: #bf0808;
+}
+
+.full_screen_photo
+{
+    margin: 20px 0 40px;
+    width: 100%;
+}
+
+.article_button
+{
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius: 25px;
+    line-height: 40px;
+    color: #fff;
+    background-color: #233fe2;
+    box-shadow: none;
+    border: none;
+    font-size: 15px;
+    margin: 0 20px 0 0;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+    width: 152px;
+    height: 50px;
+}
+
+.account_button
+{
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius: 25px;
+    line-height: 40px;
+    color: #060c31;
+    background-color: #fff;
+    box-shadow: none;
+    border: 1px solid #ffb0b1;
+    font-size: 15px;
+    margin: 20px 0;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+    width: 162px;
+    height: 50px;
+}
+
+.article_button:hover {
+  background-color: #030859;
+}
+
+.account_button:hover {
+  background-color: #030859;
+}
+
+
+span {
+    background: tomato;
+    color: #fff;
+}
